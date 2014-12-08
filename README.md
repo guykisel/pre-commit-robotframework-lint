@@ -14,5 +14,3 @@ Add this to your ``.pre-commit-config.yaml`` file
         sha: 04770a44648d3697a3fc974dff212c4be7d3ed88
         hooks:
         -   id: robotframework-lint
-
-Development: ``pip install -r requirements-dev.txt``
