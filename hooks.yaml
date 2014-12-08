@@ -1,0 +1,5 @@
+-   id: robotframework-lint
+    name: robotframework-lint
+    entry: robotframework-lint
+    language: python
+    files: \.robot$
