@@ -1,5 +1,6 @@
--   repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: cf550fcab3f12015f8676b8278b30e1a5bc10e70
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: cf550fcab3f12015f8676b8278b30e1a5bc10e70
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
@@ -17,12 +18,12 @@
     -   id: detect-private-key
     -   id: double-quote-string-fixer
     -   id: name-tests-test
--   repo: git://github.com/pre-commit/pre-commit
-    sha: 2a642b0619b76cbe1a4d217ec5f9e513dd4e4c08
+-   repo: https://github.com/pre-commit/pre-commit
+    rev: 2a642b0619b76cbe1a4d217ec5f9e513dd4e4c08
     hooks:
     -   id: validate_config
     -   id: validate_manifest
--   repo: git://github.com/asottile/reorder_python_imports
-    sha: 3d86483455ab5bd06cc1069fdd5ac57be5463f10
+-   repo: https://github.com/asottile/reorder-python-imports
+    rev: v3.14.0
     hooks:
     -   id: reorder-python-imports
